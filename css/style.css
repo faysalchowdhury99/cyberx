@@ -1,0 +1,127 @@
+/* ================ */
+/* Basic */
+/* ================ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+body {
+  line-height: 1.5;
+  background-image: url("../img/body-bg.png");
+  font-family: cocon-light;
+}
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+button:focus,
+input:focus,
+a:focus,
+i:focus {
+  outline: none;
+}
+a:hover {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+/* ================ */
+/* Fonts */
+/* ================ */
+@font-face {
+  font-family: cocon-light;
+  src: url("../fonts/Cocon_\ Next_Arabic_Light.otf");
+}
+/* ================ */
+/* Reuseable */
+/* ================ */
+.sub-heading {
+  color: #323232;
+  font-size: 3.2rem;
+}
+.para-size {
+  color: #0c2181;
+  font-size: 1.8rem;
+}
+.button {
+  font-size: 1.8rem;
+  color: #9354fc;
+  text-decoration: none;
+  box-shadow: 0px 6px 12px rgba(100, 62, 62, 0.25);
+  padding: 0.5rem 4rem;
+  border-radius: 0.4rem;
+  transition: all 0.3s linear;
+}
+.button:hover {
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.11);
+  text-decoration: underline;
+  color: #9354fc;
+  transition: all 0.3s linear;
+}
+/* ================ */
+/* Header */
+/* ================ */
+.header-content h1 {
+  font-size: 5rem;
+  color: #cc3366;
+  margin-right: 30.5rem;
+}
+.header-content p {
+  font-size: 2rem;
+  color: #0c2181;
+}
+
+/* ================ */
+/* Second Section */
+/* ================ */
+#second-section {
+  padding: 10rem 0 0 0;
+}
+#second-section .left-side-content {
+  padding-top: 5rem;
+  padding-bottom: 20rem;
+}
+.fa-circle {
+  color: #9354fc;
+}
+.sl-num {
+  font-size: 1.8rem;
+  border-radius: 0 0.4rem 0 0.4rem;
+  padding: 0rem 1.5rem;
+  margin-bottom: 1rem;
+}
+.num-1 {
+  background-color: #d74361;
+}
+.num-2 {
+  background-color: #9354fc;
+}
+.num-3 {
+  background-color: #1d49fa;
+}
+.num-4 {
+  background-color: #baf8ba;
+}
+.num-5 {
+  background-color: #d74361;
+}
+.icon-box-main {
+  background-color: #baf8bac5;
+  border-radius: 3rem 3rem 0 0;
+  padding: 5rem 0;
+}
+.icon-box {
+  margin: 3rem 0;
+}
+.icon-box img {
+  margin-bottom: 1rem;
+}

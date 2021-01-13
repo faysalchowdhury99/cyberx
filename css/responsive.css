@@ -1,0 +1,45 @@
+@media screen and (max-width: 1199px) {
+  .header-content h1 {
+    font-size: 3.5rem;
+    margin-right: 35rem;
+  }
+}
+@media screen and (max-width: 991px) {
+  .header-content {
+    padding: 3rem 0 0 0;
+  }
+  .header-content h1 {
+    margin-right: 0;
+  }
+  .icon-box-main {
+    border-radius: 3rem;
+  }
+  #second-section {
+    padding: 8rem 0;
+  }
+  #second-section .left-side-content {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+  }
+  .icon-box {
+    margin: 2rem 0;
+  }
+}
+@media screen and (max-width: 575px) {
+  .header-content h1 {
+    font-size: 2.5rem;
+  }
+  .container {
+    padding: 0 2rem !important;
+  }
+  #second-section {
+    padding: 5rem 0;
+  }
+}
+
+/* Responsive header Content Heading On XXL {1400px} Screen */
+@media screen and (min-width: 1400px) {
+  .header-content h1 {
+    margin-right: 47rem;
+  }
+}
